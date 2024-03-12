@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OformitBron">
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.351"
+      app:srcCompat="@drawable/baza" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="140dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imageView4"
+      app:srcCompat="@drawable/name" />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      app:layout_constraintEnd_toEndOf="@+id/imageView6"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/imageView6"
+      app:layout_constraintTop_toBottomOf="@+id/imageView6"
+      app:srcCompat="@drawable/telephone" />
+
+  <ImageView
+      android:id="@+id/imageView9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      app:layout_constraintEnd_toEndOf="@+id/imageView7"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/imageView7"
+      app:layout_constraintTop_toBottomOf="@+id/imageView7"
+      app:srcCompat="@drawable/mail" />
+
+  <EditText
+      android:id="@+id/name"
+      android:layout_width="184dp"
+      android:layout_height="34dp"
+      android:background="@android:color/transparent"
+      android:textSize="14dp"
+      android:ems="10"
+      android:hint="Султан"
+      android:inputType="text"
+      android:text=""
+      app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+      app:layout_constraintEnd_toEndOf="@+id/imageView6"
+      app:layout_constraintHorizontal_bias="0.155"
+      app:layout_constraintStart_toStartOf="@+id/imageView6"/>
+
+  <EditText
+      android:id="@+id/phone"
+      android:layout_width="184dp"
+      android:layout_height="34dp"
+      android:background="@android:color/transparent"
+      android:textSize="14dp"
+      android:ems="10"
+      android:hint="89005553535"
+      android:inputType="text"
+      android:text=""
+      app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+      app:layout_constraintEnd_toEndOf="@+id/imageView7"
+      app:layout_constraintHorizontal_bias="0.155"
+      app:layout_constraintStart_toStartOf="@+id/imageView7" />
+
+  <EditText
+      android:id="@+id/mail"
+      android:layout_width="184dp"
+      android:layout_height="34dp"
+      android:background="@android:color/transparent"
+      android:textSize="14dp"
+      android:ems="10"
+      android:hint="sultan228@gmail.com"
+      android:inputType="text"
+      android:text=""
+      app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+      app:layout_constraintEnd_toEndOf="@+id/imageView9"
+      app:layout_constraintHorizontal_bias="0.155"
+      app:layout_constraintStart_toStartOf="@+id/imageView9" />
+
+  <ImageView
+      android:id="@+id/bttn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView4"
+      app:srcCompat="@drawable/bron" />
+
+  <WebView
+      android:id="@+id/wb"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="187dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
